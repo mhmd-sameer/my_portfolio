@@ -1,6 +1,6 @@
 #skills{
     overflow: hidden;
-    width: 100vh;
+    width: 100%;
     max-width: 65rem;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
 
 .skillBars{
     margin: 1.5rem;
-    width: 100vw;
+    width: 100%;
     max-width: 80%;
     text-align: left;
 }

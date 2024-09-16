@@ -21,7 +21,7 @@ function Skills() {
                 <img src={WebDesign} alt='web-design' className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>Website Design</h2>
-                    <p>This is a dempo text</p>
+                    <p>This is a demo text</p>
                 </div>
             </div>
             <div className='skillBar'>

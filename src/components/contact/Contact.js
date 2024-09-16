@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
 import './Contact.css';
-import walmart from '../../assets/walmart.png';
-import microsoft from '../../assets/microsoft.png';
-import shinelogics from '../../assets/facebook.png'; // Consider renaming for clarity
+import shinelogics from '../../assets/shinelogics.jpg'; // Consider renaming for clarity
 import FacebookIcon from '../../assets/facebook-icon.png';
 import InstagramIcon from '../../assets/instagram.png';
 import YoutubeIcon from '../../assets/youtube.png';
@@ -34,13 +32,10 @@ const Contact = () => {
       <div id="clients">
         <h1 className="contactPageTitle">My Clients</h1>
         <p className='clientDesc'>
-          I have had the opportunity to work with a diverse group of companies.
-          Some of the notable companies I have worked with include:
+          I have had a opportunity to work with the company
         </p>
         <div className='clientImgs'>
-          <img src={walmart} alt="Walmart logo" className="clientImg" />
-          <img src={microsoft} alt="Microsoft logo" className="clientImg" />
-          <img src={shinelogics} alt="Facebook logo" className="clientImg" />
+          <img src={shinelogics} alt="Shinelogics logo" className="clientImg" />
         </div>
       </div>
       <div id='contact'>

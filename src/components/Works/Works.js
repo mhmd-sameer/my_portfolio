@@ -1,8 +1,8 @@
 import React from 'react';
 import './Works.css';
-import { IoLogoReact } from 'react-icons/io5';
+import { IoLogoReact, IoLogoNodejs } from 'react-icons/io';
+import { SiMongodb, SiPowerbi } from 'react-icons/si';
 import { SiMongodb } from 'react-icons/si';
-import { IoLogoNodejs } from 'react-icons/io5';
 import { SiPowerbi } from 'react-icons/si';
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";

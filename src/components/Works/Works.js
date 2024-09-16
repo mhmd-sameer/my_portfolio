@@ -24,7 +24,7 @@ function Works() {
           </div>
           <div className='worksImg'>
             <IoLogoNodejs size={120} color='green' />
-            <p>Node.js</p>
+            <p>Node JS</p>
           </div>
           <div className='worksImg'>
             <SiPowerbi size={120} color='yellow' />
@@ -43,7 +43,7 @@ function Works() {
           </div>
           <div className='worksImg'>
             <DiJavascript size={120} color='yellow' />
-            <p>Java Script</p>
+            <p>JavaScript</p>
           </div>
         </div>
       </div>

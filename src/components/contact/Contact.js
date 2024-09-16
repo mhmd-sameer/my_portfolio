@@ -1,10 +1,8 @@
 import React, { useRef } from 'react';
 import './Contact.css';
 import shinelogics from '../../assets/shinelogics.jpg'; // Consider renaming for clarity
-import FacebookIcon from '../../assets/facebook-icon.png';
-import InstagramIcon from '../../assets/instagram.png';
-import YoutubeIcon from '../../assets/youtube.png';
-import TwitterIcon from '../../assets/twitter.png';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -32,7 +30,7 @@ const Contact = () => {
       <div id="clients">
         <h1 className="contactPageTitle">My Clients</h1>
         <p className='clientDesc'>
-          I have had a opportunity to work with the company
+          I have had the opportunity to work with the company
         </p>
         <div className='clientImgs'>
           <img src={shinelogics} alt="Shinelogics logo" className="clientImg" />
@@ -47,10 +45,15 @@ const Contact = () => {
           <textarea className='msg' name='message' rows="5" placeholder='Your Message' aria-label="Your Message" required></textarea>
           <button type='submit' value='Send' className='submitBtn'>Submit</button>
           <div className='links'>
-            <img src={FacebookIcon} alt="Facebook icon" className="link" />
-            <img src={TwitterIcon} alt="Twitter icon" className="link" />
-            <img src={InstagramIcon} alt="Instagram icon" className="link" />
-            <img src={YoutubeIcon} alt="YouTube icon" className="link" />
+            <a href="https://www.linkedin.com/in/mohammed-sameer-b-ab751b255/" target="_blank" rel="noopener noreferrer" className="link">
+              <FaLinkedin size={40} color='#0A66C2' />
+            </a>
+            <a href="https://leetcode.com/u/_sameei_/" target="_blank" rel="noopener noreferrer" className="link">
+              <SiLeetcode size={40} color='#F9AB00' />
+            </a>
+            <a href="https://github.com/mhmd-sameer" target="_blank" rel="noopener noreferrer" className="link">
+              <FaGithub size={40} color='#333' />
+            </a>
           </div>
         </form>
       </div>

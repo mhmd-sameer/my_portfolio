@@ -2,7 +2,8 @@ import React from 'react'
 import './Skills.css';
 import UIDesign from '../../assets/ui-design.png';
 import WebDesign from '../../assets/website-design.png';
-import AppDesign from '../../assets/app-design.png';
+import MlProjects from '../../assets/ml-projects.png';
+
 
 function Skills() {
   return (
@@ -17,21 +18,21 @@ function Skills() {
                 <img src={UIDesign} alt='ui-design' className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>UI/UX Design</h2>
-                    <p>This is a demo text</p>
+                    <p>Designing user-friendly interfaces and experiences that delight users.</p>
                 </div>
             </div>
             <div className='skillBar'>
                 <img src={WebDesign} alt='web-design' className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>Website Design</h2>
-                    <p>This is a demo text</p>
+                    <p>Creating visually appealing and responsive websites tailored to client needs.</p>
                 </div>
             </div>
             <div className='skillBar'>
-                <img src={AppDesign} alt='app-design' className='skillBarImg' />
+                <img src={MlProjects} alt='Ml projects' className='skillBarImg' />
                 <div className='skillBarText'>
-                    <h2>App Design</h2>
-                    <p>This is a demo text.</p>
+                    <h2>Machine Learning</h2>
+                    <p>Leveraging data and algorithms to create intelligent systems and solutions.</p>
                 </div>
             </div>
         </div>

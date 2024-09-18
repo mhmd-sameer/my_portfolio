@@ -10,7 +10,7 @@ function Skills() {
     <section id='skills'>
         <span className='skillTitle'>What I Do</span>
         <span className='skillDesc'>I am passionate about my career and enjoy working on diverse projects.
-        My skills include UI/UX design, website design, and app design. I strive to
+        My skills include UI/UX design, website design, and ML projects. I strive to
         create intuitive and aesthetically pleasing designs that provide an exceptional
         user experience. Here’s a brief overview of what I can offer:</span>
         <div className='skillBars'>

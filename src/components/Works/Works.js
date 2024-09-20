@@ -9,7 +9,7 @@ import { DiJavascript } from "react-icons/di";
 function Works() {
   return (
     <section id='works'>
-      <h2 className='worksTitle'>My Portfolio</h2>
+      <h2 className='worksTitle'>Skills</h2>
       <span className='worksDesc'>I have mentioned my skills below.</span>
       <div className='worksContent'>
         <h2 className='worksTitleDiv'>Technical Skills</h2>

@@ -1,5 +1,5 @@
 #skills{
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
     max-width: 65rem;
     display: flex;
@@ -8,6 +8,7 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    min-height: calc(100vh - 4rem);
 }
 
 .skillTitle {

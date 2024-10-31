@@ -1,44 +1,59 @@
-import React from 'react'
+import React from 'react';
 import './Skills.css';
-import UIDesign from '../../assets/ui-design.png';
-import WebDesign from '../../assets/website-design.png';
-import MlProjects from '../../assets/ml-projects.png';
+import { IoLogoReact, IoLogoNodejs } from 'react-icons/io5';
+import { SiMongodb, SiPowerbi } from 'react-icons/si';
+import { FaJava } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { DiJavascript } from "react-icons/di";
+import { SiTailwindcss } from "react-icons/si";
 
-
-function Skills() {
+function Works() {
   return (
-    <section id='skills'>
-        <span className='skillTitle'>What I Do</span>
-        <span className='skillDesc'>I am passionate about my career and enjoy working on diverse projects.
-        My skills include UI/UX design, website design, and ML projects. I strive to
-        create intuitive and aesthetically pleasing designs that provide an exceptional
-        user experience. Here’s a brief overview of what I can offer:</span>
-        <div className='skillBars'>
-            <div className='skillBar'>
-                <img src={UIDesign} alt='ui-design' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>UI/UX Design</h2>
-                    <p>Designing user-friendly interfaces and experiences that delight users.</p>
-                </div>
-            </div>
-            <div className='skillBar'>
-                <img src={WebDesign} alt='web-design' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>Web Development</h2>
-                    <p>Creating visually appealing and responsive websites tailored to client needs.</p>
-                </div>
-            </div>
-            <div className='skillBar'>
-                <img src={MlProjects} alt='Ml projects' className='skillBarImg' />
-                <div className='skillBarText'>
-                    <h2>Machine Learning</h2>
-                    <p>Leveraging data and algorithms to create intelligent systems and solutions.</p>
-                </div>
-            </div>
+    <section id='works'>
+      <h2 className='worksTitle'>Skills</h2>
+      <span className='worksDesc'>I have mentioned my skills below.</span>
+      <div className='worksContent'>
+        <h2 className='worksTitleDiv'>Technical Skills</h2>
+        <div className='worksImgs'>
+          <div className='worksImg'>
+            <IoLogoReact size={120} color='cyan' />
+            <p>React</p>
+          </div>
+          <div className='worksImg'>
+            <SiMongodb size={120} color='green' />
+            <p>Mongo DB</p>
+          </div>
+          <div className='worksImg'>
+            <IoLogoNodejs size={120} color='green' />
+            <p>Node JS</p>
+          </div>
+          <div className='worksImg'>
+            <SiPowerbi size={120} color='yellow' />
+            <p>Power BI</p>
+          </div>
+          <div className='worksImg'>
+            <SiTailwindcss size={120} color='cyan' />
+            <p>Tailwind CSS</p>
+          </div>
         </div>
-
+        <h2 className='worksTitleDiv'>Programming Skills</h2>
+        <div className='worksImgs'>
+          <div className='worksImg'>
+            <FaJava size={120} color='brown' />
+            <p>Java</p>
+          </div>
+          <div className='worksImg'>
+            <FaPython size={120} color='cyan' />
+            <p>Python</p>
+          </div>
+          <div className='worksImg'>
+            <DiJavascript size={120} color='yellow' />
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Works;

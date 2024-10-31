@@ -1,0 +1,87 @@
+#Projects{
+    /* overflow: hidden; */
+    width: 100%;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+}
+
+.ProjectTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom:1.5rem ;
+    padding-top: 3rem;
+}
+
+.ProjectBars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 80%;
+}
+
+.ProjectBar {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    text-align: center; /* Center-aligns text content */
+}
+
+
+.ProjectBar:hover {
+    transform: translateY(-4px);
+}
+
+.ProjectBarImg {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+.ProjectBarText > h2 {
+    font-size: 1.25rem;
+}
+
+.ProjectBarText > p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 720px) {
+    .ProjectBars {
+        flex-direction: column;
+    }
+    .ProjectBarText > p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ProjectBarText > p {
+        font-size: 3vw;
+    }
+    .ProjectBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .ProjectBarText > h2 {
+        font-size: 5vw;
+    }
+}

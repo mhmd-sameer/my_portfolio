@@ -3,7 +3,7 @@ import './Projects.css';
 import OD from '../../assets/od.png'
 import job from '../../assets/job.png';
 import election from '../../assets/election.png'
-import hotel from '../../assets/hotel.png'
+import language from '../../assets/language.png'
 import podcast from '../../assets/podcast.png'
 const Projects = () => {
   return (
@@ -36,9 +36,9 @@ const Projects = () => {
             </div>
             <div className='ProjectBar'>
                 <div className='ProjectBarText'>
-                    <h2>Hotel Management App</h2>
-                    <img src={hotel} alt='hotel' className='ProjectBarImg' />
-                    <p>hotel management app enabling efficient room booking for clients and streamlined task assignments for staff.</p>
+                    <h2>Multi Language Translator</h2>
+                    <img src={language} alt='hotel' className='ProjectBarImg' />
+                    <p>reated a translator with a Flask backend and React frontend. Integrated a pre-trained Hugging Facefacebook/mbart-large-50-one-to-many-mmt model for accurate translations.</p>
                 </div>
             </div>
             <div className='ProjectBar'>
